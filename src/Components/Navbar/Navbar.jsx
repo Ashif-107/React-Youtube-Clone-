@@ -6,6 +6,7 @@ import upload_icon from '../../assets/upload.png'
 import more_icon from '../../assets/more.png'
 import notification from '../../assets/notification.png'
 import profile from '../../assets/naruto edited.png'
+import { Link } from 'react-router-dom'
 
 // eslint-disable-next-line react/prop-types
 const Navbar = ({setSidebar}) => {
@@ -13,7 +14,7 @@ const Navbar = ({setSidebar}) => {
         <nav className='flex-div'>
             <div className="nav-left flex-div">
                 <img src={menu_icon} alt="" className='menu-icon' onClick={() => setSidebar(prev => prev === false ? true : false)} />
-                <img src={logo} alt="" className='logo' />
+                <Link to={'/'}><img src={logo} alt="" className='logo' /></Link>
             </div>
             <div className="nav-middle flex-div">
                 <div className="search-box flex-div">
