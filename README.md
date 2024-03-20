@@ -1,8 +1,15 @@
-# Youtube Clone using react
+# YouTube Clone with React
 
-A simple Clone of Youtube by fecting the api data of youtube.
+### Live Preview - >
+https://react-youtube-clone-alpha.vercel.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a YouTube clone built using React and the YouTube API. It allows users to search for videos, view video details, and watch videos directly within the application. The project aims to replicate key features and functionalities of the original YouTube platform.
+
+## Features
+
+
+- **Video Playback**: Users can watch videos directly within the application. Video playback is seamlessly integrated, providing a similar experience to the original YouTube platform.
+
+- **Video Details**: Detailed information about each video, including title, description, uploader, and view count, is displayed to users.
+
